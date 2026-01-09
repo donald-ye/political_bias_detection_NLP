@@ -1,4 +1,4 @@
-# 🗳️ Political Bias & Misinformation Detection | NLP & ML
+#  Political Bias & Misinformation Detection | NLP & ML
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
 [![Python Version](https://img.shields.io/badge/python-3.10-blue)]()
@@ -7,12 +7,12 @@ This project tackles the challenge of detecting political bias in online news ar
 
 ---
 
-📄 **[Final Research Report](docs/bias_misinformation_nlp_report.pdf)**
+**[Final Research Report](docs/bias_misinformation_nlp_report.pdf)**
 
-📽️ **[View Project Summary Slides](https://www.canva.com/design/DAGms2-C6JE/mZeceajHmoXcdp1LpOdMkA/edit?utm_content=DAGms2-C6JE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
+**[View Project Summary Slides](https://www.canva.com/design/DAGms2-C6JE/mZeceajHmoXcdp1LpOdMkA/edit?utm_content=DAGms2-C6JE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
 
 
-## 🔑 Key Contributions
+## Key Contributions
 
 - Fine-tuned **BERT** and **SimCSE** for **multi-class political bias classification** (`left`, `center`, `right`) on a dataset of 34,000+ news articles, achieving robust accuracy and semantic alignment.
   
@@ -29,7 +29,7 @@ This project tackles the challenge of detecting political bias in online news ar
  
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 - Logistic Regression: ~22% validation accuracy, precision/recall highly imbalanced, biased toward “right” class.
 - Deep Neural Network: ~27% validation accuracy, ROC-AUC 0.4751, overfitting observed.
@@ -37,7 +37,7 @@ This project tackles the challenge of detecting political bias in online news ar
 
 ---
 
-## 🧪 Technologies & Tools
+##  Technologies & Tools
 
 | Category          | Tools                                     |
 |-------------------|-------------------------------------------|
@@ -50,7 +50,7 @@ This project tackles the challenge of detecting political bias in online news ar
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - Explore data augmentation or rebalancing to address class imbalance.  
 - Investigate richer contextual embeddings beyond SimCSE.  
